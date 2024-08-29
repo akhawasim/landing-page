@@ -5,20 +5,24 @@ body{
 }
 
 #header-id, #footer-id, #section-1, #section-2, #section-3, #section-4{
-    padding: 0px 56px;
+    padding: 0px 200px;
 }
 
 #header-id, #footer-id, #section-1{
     background-color: #1f2937;
 }
 
-#hero-secondary-text, .header-list-item, #footer-id{
+#hero-secondary-text, .header-list-item, #footer-id, #hero-image-id{
     font-size: 18px;
     color: #e5e7eb;
 }
 
 .sign-up-button, #section-4-container{
     background-color: #3882f6;
+    color: #f9faf8;
+    cursor: pointer;
+    padding: 8px 32px;
+    border-radius: 8px;
 }
 
 #hero-main-text{
@@ -33,7 +37,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 16px;
+    padding-top: 24px;
     padding-bottom: 16px;
 }
 
@@ -51,6 +55,41 @@ body{
 
 .main-body-section{
     height: 500px;
+}
+
+#section-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+}
+
+#hero-image-id, #hero-main-id{
+    flex: 1;
+}
+
+#hero-main-id{
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px 0;
+    gap: 16px;
+}
+
+#hero-sign-up-button-id{
+    border: 1px solid #3882f6;
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+#hero-image-id{
+    background-color: grey;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
 }
 
 #section-2-header{
