@@ -92,10 +92,37 @@ body{
     margin: 100px 0;
 }
 
+#section-2, #section-2-items, .section-2-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section-2{
+    gap: 56px;
+}
+
 #section-2-header{
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    padding-top: 40px;
+}
+
+#section-2-items{
+    flex-direction: row;
+}
+
+.section-2-item{
+    text-align: center;
+    gap: 8px;
+}
+
+.section-2-item-box{
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    border: 5px solid #3882f6;
 }
 
 #section-3{
